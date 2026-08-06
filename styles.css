@@ -339,6 +339,15 @@ a:hover {
   line-height: 1.4;
 }
 
+.hero-tagline {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--green-dark);
+  line-height: 1.45;
+}
+
 .hero-desc {
   margin: 0 0 1.5rem;
   max-width: 34rem;
@@ -558,6 +567,50 @@ a:hover {
 
 .about-aside li + li {
   margin-top: 0.45rem;
+}
+
+.timeline {
+  display: grid;
+  gap: 1.25rem;
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+.timeline-item {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--green);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.timeline-item time {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--saffron);
+  margin-bottom: 0.35rem;
+}
+
+.timeline-item h3 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--green-dark);
+}
+
+.timeline-item p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.journey-quote {
+  margin-top: 2.5rem;
+  max-width: 760px;
+  margin-inline: auto;
 }
 
 .cards-grid {
